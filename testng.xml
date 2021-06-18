@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.bridgelabz.selenium.driver.TestNGListner"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Admin/LinkedinMaven/src/test/java/com/bridgelabz/selenium/LinkedinTest.java">
+        <classes>
+            <class name="com.bridgelabz.selenium.LinkedinTest">
+                <methods>
+                    <include name="login_Linkedin"/>
+                    <include name="post_Linkedin"/>
+                    <include name="My_Items"/>
+                    <include name="Create_Event"/>
+                    <include name="Upload_Image"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
